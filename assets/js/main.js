@@ -1,8 +1,3 @@
-/*
-	Overflow by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -105,6 +100,7 @@
 
 		// Parallax background.
 
+		
 			// Disable parallax on IE (smooth scrolling is jerky), and on mobile platforms (= better performance).
 				if (skel.vars.browser == 'ie'
 				||	skel.vars.mobile)
@@ -143,6 +139,7 @@
 					.trigger('resize.overflow_parallax');
 
 			}
+
 
 		// Poptrox.
 			$('.gallery').poptrox({

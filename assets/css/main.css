@@ -1304,7 +1304,7 @@
 
 	body {
 		background-color: #e0e0e0;
-		background-image: url("../../images/bg.jpg");
+		background-image: url("../../images/blur.jpg");
 		background-repeat: repeat, no-repeat;
 		background-size: auto, cover;
 		background-position: top left, center 0;
@@ -1998,7 +1998,7 @@
 		text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25);
 		text-align: center;
 		background: #35b88f url("images/blue backup.JPG") bottom center no-repeat;
-		padding: 5em 0 3em 0;
+		padding: 3em 0 3em 0;
 
 		margin: 0;
 		background-size: 125% auto;
@@ -2010,7 +2010,7 @@
 		}
 
 		#banner header {
-			margin: 0 0 1em 0;
+			margin: 0 0 1.2em 0;
 		}
 
 			#banner header h2 {
