@@ -143,9 +143,9 @@
 
 		// Poptrox.
 			$('.gallery').poptrox({
-				usePopupForceClose: true;
 				useBodyOverflow: false,
-				usePopupEasyClose: false,
+				usePopupEasyClose: true,
+				usePopupForceClose:true,
 				overlayColor: '#0a1919',
 				overlayOpacity: (skel.vars.IEVersion < 9 ? 0 : 0.75),
 				usePopupDefaultStyling: false,
