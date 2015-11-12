@@ -143,6 +143,7 @@
 
 		// Poptrox.
 			$('.gallery').poptrox({
+				usePopupForceClose: true;
 				useBodyOverflow: false,
 				usePopupEasyClose: false,
 				overlayColor: '#0a1919',
