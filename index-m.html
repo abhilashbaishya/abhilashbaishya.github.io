@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html class="loading">
+  <head>
+    <meta  content="text/html; charset=utf-8"  http-equiv="content-type">
+    <meta property="og:image" content="https://abhilashbaishya.github.io/images/POST.png"/>
+    
+    <title>
+    abaishya
+    </title>
+    <link rel="shortcut icon" href="images/abdp.png">
+    <link rel="image_src" href="images/abdp.png" />
+    <meta  name="viewport"  content="width=device-width, initial-scale=1">
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link  rel="stylesheet"  href="assets/css/main.css">
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    
+    <!-- loader, inline to enable faster loading #kdas-->
+    <style>
+        html {
+          -webkit-transition: background-color 1s;
+          transition: background-color 1s;
+        }
+        /* External gif loi asu */
+        html, body { min-height: 100%; }
+        html.loading {
+
+          background: #565656 url('ripple.svg');
+          top: 50%;
+          left: 50%;
+          position: fixed;
+          -webkit-transition: background-color 0;
+          transition: background-color 0;
+          background-repeat: no-repeat;
+    }
+        body {
+          -webkit-transition: opacity 1s ease-in;
+          transition: opacity 1s ease-in;
+        }
+        html.loading body {
+          opacity: 0;
+        }
+        button {
+          background: #00A3FF;
+          color: white;
+          padding: 0.2em 0.5em;
+          font-size: 1.5em;
+        }
+      </style>
+
+      <!--loader time script #kdas-->
+      <script>
+        var html = document.getElementsByTagName('html')[0];
+        var removeLoading = function() {
+          // In a production application you would remove the loading class when your
+          // application is initialized and ready to go.  Here we just artificially wait
+          // 3 seconds before removing the class.
+          setTimeout(function() {
+            html.className = html.className.replace(/loading/, '');
+          }, 2000);
+        };
+        removeLoading();
+      </script>
+
+  </head>
+  
+  <body>
+  
+    <script  language="JavaScript">
+		
+    var message="What's with the copy/paste, bro?";
+
+    function clickIE4(){
+		if (event.button==2){
+			alert(message);
+		return false;
+		}
+		}
+
+		function clickNS4(e){
+		if (document.layers||document.getElementById&&!document.all){
+		if (e.which==2||e.which==3){
+			alert(message);
+		return false;
+		}
+		}
+		}
+
+		if (document.layers){
+			document.captureEvents(Event.MOUSEDOWN);
+			document.onmousedown=clickNS4;
+		}
+		else if (document.all&&!document.getElementById){
+			document.onmousedown=clickIE4;
+		}
+
+		document.oncontextmenu = new Function("alert(message);return false")
+
+		// 
+		</script>
+
+    <!-- Header -->
+      <section id="header">
+        <header>
+          <img  src="images/abdp.png"  width="100px">
+          <br>
+          <h1>Abhilash Baishya</h1>
+          <p>Part Time Artist :: Full TIme Joker</p>
+        </header>
+        <footer>
+          <a href="#banner" class="button style2 scrolly-middle">Half zine. Half blog. Half not good with fractions.</a>
+        </footer>
+      </section>
+
+    <!-- Banner -->
+      <section id="banner">
+        <header>
+        <h2>#BLUE</h2>
+      </header>
+      Abhilash Baishya, 19 is a photographer and an aspiring filmmaker based out
+      of Guwahati, Assam. Abhilash started taking photography seriously once he
+      passed out of high school and since then there’s been no stopping him. His
+      work gained recognition once he was made a suggested user by Instagram and
+      at the same time he started getting featured by VSCO. Currently, he’s been
+      into video a lot and has been building up his YouTube channel and covering
+      music concerts for WhatsTheScene? in his free time.
+      </section>
+    
+    <!--
+    ## Feature boxes - Dynamic resizing issue - #temp > no text in the "inner" divs
+    -->
+
+    <!-- Feature 1 -->
+      <article id="first" class="container box style1 right">
+        <a href="#" class="image fit"><img src="images/pic01.jpg" alt="" /></a>
+        <div class="inner">
+          <header>
+            <h2></h2>
+          </header>
+          <p></p>
+        </div>
+      </article>
+
+    <!-- Feature 2 -->
+      <article class="container box style1 left">
+        <a href="#" class="image fit"><img src="images/pic02.jpg" alt="" /></a>
+        <div class="inner">
+          <header>
+            <h2></h2>
+          </header>
+          <p></p>
+        </div>
+      </article>
+
+    <!-- Portfolio -->
+      <article class="container box style2">
+        <header>
+          <h2>OI LUDDITE</h2>
+          <p>Luddite Luddite Luddite</p>
+        </header>
+        <div class="inner gallery">
+          <div class="row 0%">
+            <div class="3u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
+            <div class="3u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
+            <div class="3u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Raven" /></a></div>
+            <div class="3u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
+          </div>
+      </article>
+
+      <article class="container box style2">
+        <header>
+          <h2>OI LUDDITE</h2>
+          <p>Luddite Luddite Luddite</p>
+        </header>
+        <div class="inner gallery">
+          <div class="row 0%">
+            <div class="3u 12u(mobile)"><a href="images/fulls/01.jpg" class="image fit"><img src="images/thumbs/01.jpg" alt="" title="Ad infinitum" /></a></div>
+            <div class="3u 12u(mobile)"><a href="images/fulls/02.jpg" class="image fit"><img src="images/thumbs/02.jpg" alt="" title="Dressed in Clarity" /></a></div>
+            <div class="3u 12u(mobile)"><a href="images/fulls/03.jpg" class="image fit"><img src="images/thumbs/03.jpg" alt="" title="Raven" /></a></div>
+            <div class="3u 12u(mobile)"><a href="images/fulls/04.jpg" class="image fit"><img src="images/thumbs/04.jpg" alt="" title="I'll have a cup of Disneyland, please" /></a></div>
+          </div>
+      </article>
+
+    <article  class="container box style3">
+      <header>
+        <h2> To get in touch, just drop a mail!</h2>
+        abhilashbaishya2012@gmail.com <br>
+        <br>
+        <!--<p>Still if ur a douche  http://goo.gl/forms/bdWyiCPQYK  </p>-->
+        <div  class="12u$"><a  href="mailto:abhilashbaishya2012@gmail.com"  target="_top"><img
+               src="images/button.png"
+               height="60px"></a></div>
+      </header>
+    </article>
+    
+    <section  id="footer">
+      <ul  class="icons">
+        <li><a  href="https://twitter.com/abhilashbaishya"  target="_blank"  class="icon fa-twitter"><span
+               class="label">Twitter</span></a><br>
+        </li>
+        <li><a  href="https://www.facebook.com/AbhilashxBaishya"  target="_blank"
+             class="icon fa-facebook"><span
+               class="label">Facebook</span></a><br>
+        </li>
+        <li><a  href="https://plus.google.com/u/0/+AbhilashBaishya"  target="_blank"
+             class="icon fa-google-plus"><span
+               class="label">Google+</span></a><br>
+        </li>
+        <li><a  href="https://www.instagram.com/abhilash_baishya/"  target="_blank"
+             class="icon fa-instagram"><span
+               class="label">Dribbble</span></a><br>
+        </li>
+        <li><a  href="http://youtube.com/abhilashbaishya"  target="_blank"  class="icon fa-youtube"><span
+               class="label">LinkedIn</span></a><br>
+        </li>
+        <li><a  href="http://abhilashbaishya.tumblr.com/"  target="_blank"  class="icon fa-tumblr-square"><span
+               class="label">Tumblr</span></a><br>
+        </li>
+      </ul>
+      <div  class="copyright">
+        <ul  class="menu">
+          <li> <font  color="#d0d0d0"> © 2015 Abhilash Baishya</font><font  color="#d0d0d0"> | Developed by: <a  href="https://facebook.com/kdasecho"
+                 target="_blank">Kabir
+                Das</a><a  href="##"></a> </font></li>
+        </ul>
+      </div>
+    </section>
+    <!-- Scripts -->
+    <script  src="assets/js/jquery.min.js"></script>
+    <script  src="assets/js/jquery.scrolly.min.js"></script>
+    <script  src="assets/js/jquery.poptrox.min.js"></script>
+    <script  src="assets/js/skel.min.js"></script>
+    <script  src="assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+    <script  src="assets/js/main.js"></script>
+
+    <!--Google Analytics Script-->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-70703809-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
+</html>
+
