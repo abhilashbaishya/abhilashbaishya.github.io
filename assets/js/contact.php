@@ -2,7 +2,7 @@
 
 if(isset($_GET['email'])) {
 
-    $email_to = "abhilashbaishya2012@gmail.com";
+    $email_to = "";
  
     $email_subject = "I'm a Douche";
 
